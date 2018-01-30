@@ -47,7 +47,7 @@ Steps to reproduce
        
    The output wil indicate where the savepoint has been created
        
-7. redeploy the jon from a savepoint
+7. redeploy the job from a savepoint
        
        docker exec -i -t flink /opt/flink/bin/flink run -q -d -s <savepoint> /app/flink-app-1.0.jar
 
